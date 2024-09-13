@@ -1,0 +1,126 @@
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <style type="text/css">
+        body {
+            margin-top: 30px !important;
+            background: #eee;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="container bootdey">
+        <div class="row invoice row-printable">
+            <div class="col-md-10">
+                <div class="panel panel-default plain" id="dash_0">
+                    <div class="panel-body p-10">
+                        
+                        <div class="table-responsive" style="overflow: hidden; outline: none; border-radius: 10px !important;" tabindex="0">
+                            <table class="table">
+                                <!-- <tbody> -->
+                                    <tr>
+                                        <td class="text-left">
+                                            <img width="100"
+                                                src="file:///app/media/data/logo-emerald.png"
+                                                alt="Invoice logo">
+                                        </td>
+                                        <td>
+                                            <ul class="list-unstyled text-right">
+                                                <li>Emerald Digital S.C.</li>
+                                                <li>León, Guanajuato, México</li>
+                                                <li>Blvd. Mariano Escobedo Ote. 4502, Int. 401-A</li>
+                                                <li>info@emeraldigital.com</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                <!-- </tbody> -->
+                            </table>
+                        </div>
+
+                        <div class="row">
+                            <h2 style="text-align: center;">Certificado v1</h2>
+
+                            <div class="col-lg-12">
+
+                                <div class="invoice-details mt25">
+                                    <div class="well">
+                                        <ul class="list-unstyled mb5">
+                                            <li><strong>Id Prueba:</strong> #{{numero_serie}}_{{id_prueba}}</li>
+                                            <li><strong>Fecha Creación:</strong> {{fecha_creacion}}</li>
+                                            <li><strong>Bodega:</strong> {{bodega}}</li>
+                                            <li><strong>Ubicación:</strong> {{ubicacion}}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="invoice-items">
+                                    <div class="table-responsive" style="border-radius: 10px !important; overflow: hidden; outline: none;" tabindex="0">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="2" class="per70 text-center">Detalle</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><strong>Resultado</strong></td>
+                                                    <td class="text-center">
+                                                        <span class="label label-{% if resultado %}success{% else %}danger{% endif %}">{% if resultado %}EXITOSA{% else %}FALLIDA{% endif %}</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Usuario</strong></td>
+                                                    <td class="text-center">{{usuario}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Número de Serie</strong></td>
+                                                    <td class="text-center">{{numero_serie}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><strong>Módelo</strong></td>
+                                                    <td class="text-center">{{modelo}}</td>
+                                                </tr>
+                                                <!-- <tr>
+                                                    <td><strong>Duración</strong></td>
+                                                    <td class="text-center">{{duracion}}</td>
+                                                </tr> -->
+                                                <tr>
+                                                    <td><strong>Descripción</strong></td>
+                                                    <td class="text-center">{{descripcion}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">
+                                                        <!-- <img src="file:///app/media/data/plot/{{id_prueba}}.png"
+                                                            width="300" height="200" /> -->
+                                                    </td>
+                                                    <td class="text-center" style="text-align: center;">
+                                                        <img src="file:///app/media/data/qr/{{id_prueba}}.png"
+                                                            width="100" height="100" />
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="invoice-footer mt25">
+                                    <p class="text-center">Leyenda del documento</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript"></script>-->
+</body>
+
+<!-- </html> -->
